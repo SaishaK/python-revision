@@ -6,4 +6,4 @@ email = input("Enter the email id")
 if "@" in email and email.endswith(".com"):
     print("The email is valid")
 else:
-    print("The email is not valid")
+    print("The email is invalid")
